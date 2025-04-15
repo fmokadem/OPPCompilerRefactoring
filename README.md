@@ -113,11 +113,3 @@ The analysis follows these main steps using the provided Python scripts:
 
 -   **Input:** Raw execution trace files (`.txt`) located in `data/<system_name>/`. Each pair of lines typically represents a solution (comma-separated refactorings) and its corresponding objective values (comma-separated, within parentheses).
 -   **Processed:** Files (`FinalSolutions-multilabel-<system_name>.txt`) in `processed_data/`. Each line contains the cleaned refactoring sequence string followed by the 6 binary QMOOD improvement labels (space-separated, comma-separated numbers, e.g., `... 1, 0, 1, 1, 0, 1`).
-
-## Contributing
-
-(Optional: Add guidelines if contributions are welcome.)
-
-## License
-
-(Optional: Specify the license for the code and data.)
